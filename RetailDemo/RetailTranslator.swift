@@ -35,7 +35,7 @@ extension Retail {
         @Observable var bottomButtonAction: NamedEnabledEvaluatorAction<Action>? = nil
         
         // Passable
-        var dismiss = PassablePlease()
+        @Passable var dismiss = Please()
         
         // State Sink
         var stateSink: AnyCancellable?

@@ -7,10 +7,12 @@
 
 import Combine
 
-class PassablePlease {
-    var subject = PassthroughSubject<Any?, Never>()
+struct Please {}
+
+typealias PassablePlease = Passable<Please>
+
+extension PassablePlease {
     func please() {
         subject.send(nil)
     }
 }
-

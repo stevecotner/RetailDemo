@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DCD65A1524B70F81000627E5 /* Passable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD65A1424B70F81000627E5 /* Passable.swift */; };
 		DCD9670E24A923E60013C8E3 /* RetailDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9670D24A923E60013C8E3 /* RetailDemoApp.swift */; };
 		DCD9671024A923E60013C8E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9670F24A923E60013C8E3 /* ContentView.swift */; };
 		DCD9671224A923E70013C8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD9671124A923E70013C8E3 /* Assets.xcassets */; };
@@ -87,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DCD65A1424B70F81000627E5 /* Passable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passable.swift; sourceTree = "<group>"; };
 		DCD9670A24A923E60013C8E3 /* RetailDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetailDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD9670D24A923E60013C8E3 /* RetailDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailDemoApp.swift; sourceTree = "<group>"; };
 		DCD9670F24A923E60013C8E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -293,6 +295,7 @@
 		DCD9675024A925810013C8E3 /* Passables */ = {
 			isa = PBXGroup;
 			children = (
+				DCD65A1424B70F81000627E5 /* Passable.swift */,
 				DCD9675124A9259A0013C8E3 /* PassablePlease.swift */,
 				DCD9677E24A929360013C8E3 /* PassableString.swift */,
 				DCD9678224A9296E0013C8E3 /* PassableBool.swift */,
@@ -472,6 +475,7 @@
 				DCD9679824A929BD0013C8E3 /* InstructionsView.swift in Sources */,
 				DCD9678524A9298A0013C8E3 /* PassableState.swift in Sources */,
 				DCD9677324A9284C0013C8E3 /* DemoControlPanelView.swift in Sources */,
+				DCD65A1524B70F81000627E5 /* Passable.swift in Sources */,
 				DCD9675E24A926C00013C8E3 /* DeepCopying.swift in Sources */,
 				DCD9679124A929BD0013C8E3 /* OptionsView.swift in Sources */,
 				DCD9676224A9271C0013C8E3 /* ViewDemoing.swift in Sources */,

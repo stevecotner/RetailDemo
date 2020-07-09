@@ -23,10 +23,6 @@ class Observable<T>: ObservableObject {
     var projectedValue: Observed<T> {
         Observed(observed: observableObjectWrapper)
     }
-    
-    var observed: Observed<T> {
-        projectedValue
-    }
 
     init(wrappedValue: T) {
         self.wrappedValue = wrappedValue

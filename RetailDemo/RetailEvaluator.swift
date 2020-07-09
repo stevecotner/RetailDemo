@@ -208,7 +208,7 @@ extension Retail.Evaluator: ActionEvaluating, ActionEvaluating_ProductFinding, A
             advanceToCanceled()
             
         case .done:
-            translator.dismiss.please()
+            translator.$dismiss.please()
             
         // Product Finding
             
