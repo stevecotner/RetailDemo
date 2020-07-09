@@ -13,6 +13,60 @@
 		DCD9671524A923E70013C8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD9671424A923E70013C8E3 /* Preview Assets.xcassets */; };
 		DCD9672024A923E80013C8E3 /* RetailDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9671F24A923E80013C8E3 /* RetailDemoTests.swift */; };
 		DCD9672B24A923E80013C8E3 /* RetailDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9672A24A923E80013C8E3 /* RetailDemoUITests.swift */; };
+		DCD9673924A9240E0013C8E3 /* Retail-PageViewMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9673824A9240E0013C8E3 /* Retail-PageViewMaker.swift */; };
+		DCD9673B24A924250013C8E3 /* RetailTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9673A24A924250013C8E3 /* RetailTranslator.swift */; };
+		DCD9673D24A9243A0013C8E3 /* RetailEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9673C24A9243A0013C8E3 /* RetailEvaluator.swift */; };
+		DCD9673F24A9244A0013C8E3 /* RetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9673E24A9244A0013C8E3 /* RetailScreen.swift */; };
+		DCD9674224A924870013C8E3 /* ObservingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674124A924870013C8E3 /* ObservingPageView.swift */; };
+		DCD9674424A924AA0013C8E3 /* ObservableObjectWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674324A924AA0013C8E3 /* ObservableObjectWrapper.swift */; };
+		DCD9674724A924E30013C8E3 /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674624A924E30013C8E3 /* DismissButton.swift */; };
+		DCD9674924A9250C0013C8E3 /* ObservableArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674824A9250C0013C8E3 /* ObservableArray.swift */; };
+		DCD9674B24A925320013C8E3 /* ObservableBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674A24A925320013C8E3 /* ObservableBool.swift */; };
+		DCD9674D24A925480013C8E3 /* ObservableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674C24A925480013C8E3 /* ObservableString.swift */; };
+		DCD9674F24A9256A0013C8E3 /* DismissReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9674E24A9256A0013C8E3 /* DismissReceiver.swift */; };
+		DCD9675224A9259A0013C8E3 /* PassablePlease.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675124A9259A0013C8E3 /* PassablePlease.swift */; };
+		DCD9675424A926020013C8E3 /* ObservingBottomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675324A926020013C8E3 /* ObservingBottomButton.swift */; };
+		DCD9675724A926310013C8E3 /* ActionEvaluating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675624A926310013C8E3 /* ActionEvaluating.swift */; };
+		DCD9675924A9265A0013C8E3 /* EvaluatorAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675824A9265A0013C8E3 /* EvaluatorAction.swift */; };
+		DCD9675B24A9268D0013C8E3 /* NamedEvaluatorAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675A24A9268D0013C8E3 /* NamedEvaluatorAction.swift */; };
+		DCD9675E24A926C00013C8E3 /* DeepCopying.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675D24A926C00013C8E3 /* DeepCopying.swift */; };
+		DCD9676024A926E20013C8E3 /* ObservableInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9675F24A926E20013C8E3 /* ObservableInt.swift */; };
+		DCD9676224A9271C0013C8E3 /* ViewDemoing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676124A9271C0013C8E3 /* ViewDemoing.swift */; };
+		DCD9676424A9273B0013C8E3 /* NamedDemoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676324A9273B0013C8E3 /* NamedDemoProvider.swift */; };
+		DCD9676724A927600013C8E3 /* DemoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676624A927600013C8E3 /* DemoProvider.swift */; };
+		DCD9676924A9277B0013C8E3 /* DemoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676824A9277B0013C8E3 /* DemoControl.swift */; };
+		DCD9676B24A927B50013C8E3 /* EvaluatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676A24A927B50013C8E3 /* EvaluatingTextField.swift */; };
+		DCD9676D24A927CE0013C8E3 /* EvaluatorElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676C24A927CE0013C8E3 /* EvaluatorElement.swift */; };
+		DCD9676F24A927F40013C8E3 /* DemoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9676E24A927F40013C8E3 /* DemoContainerView.swift */; };
+		DCD9677124A9281A0013C8E3 /* KeyboardPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677024A9281A0013C8E3 /* KeyboardPadding.swift */; };
+		DCD9677324A9284C0013C8E3 /* DemoControlPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677224A9284C0013C8E3 /* DemoControlPanelView.swift */; };
+		DCD9677524A928700013C8E3 /* NamedIdentifiedValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677424A928700013C8E3 /* NamedIdentifiedValue.swift */; };
+		DCD9677724A9289E0013C8E3 /* DemoControlView_ObservableControlledByTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677624A9289E0013C8E3 /* DemoControlView_ObservableControlledByTextInput.swift */; };
+		DCD9677924A928B80013C8E3 /* DemoControlView_ButtonChoices.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677824A928B80013C8E3 /* DemoControlView_ButtonChoices.swift */; };
+		DCD9677B24A928E40013C8E3 /* EvaluatingToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677A24A928E40013C8E3 /* EvaluatingToggle.swift */; };
+		DCD9677D24A928F60013C8E3 /* DemoControlView_Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677C24A928F60013C8E3 /* DemoControlView_Toggle.swift */; };
+		DCD9677F24A929360013C8E3 /* PassableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9677E24A929360013C8E3 /* PassableString.swift */; };
+		DCD9678124A929570013C8E3 /* ObservableValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678024A929570013C8E3 /* ObservableValidation.swift */; };
+		DCD9678324A9296E0013C8E3 /* PassableBool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678224A9296E0013C8E3 /* PassableBool.swift */; };
+		DCD9678524A9298A0013C8E3 /* PassableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678424A9298A0013C8E3 /* PassableState.swift */; };
+		DCD9678724A9299C0013C8E3 /* EvaluatorState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678624A9299C0013C8E3 /* EvaluatorState.swift */; };
+		DCD9679124A929BD0013C8E3 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678824A929BD0013C8E3 /* OptionsView.swift */; };
+		DCD9679224A929BD0013C8E3 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678C24A929BD0013C8E3 /* DividerView.swift */; };
+		DCD9679324A929BD0013C8E3 /* FeedbackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678A24A929BD0013C8E3 /* FeedbackView.swift */; };
+		DCD9679424A929BD0013C8E3 /* SelectableCapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678E24A929BD0013C8E3 /* SelectableCapsuleButton.swift */; };
+		DCD9679524A929BD0013C8E3 /* DisplayableProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678D24A929BD0013C8E3 /* DisplayableProductsView.swift */; };
+		DCD9679624A929BD0013C8E3 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678924A929BD0013C8E3 /* ProductView.swift */; };
+		DCD9679724A929BD0013C8E3 /* SpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678F24A929BD0013C8E3 /* SpaceView.swift */; };
+		DCD9679824A929BD0013C8E3 /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9679024A929BD0013C8E3 /* InstructionsView.swift */; };
+		DCD9679924A929BD0013C8E3 /* FoundNotFoundButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9678B24A929BD0013C8E3 /* FoundNotFoundButtonsView.swift */; };
+		DCD9679B24A92A010013C8E3 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9679A24A92A010013C8E3 /* BlurView.swift */; };
+		DCD9679D24A92A530013C8E3 /* Fadeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9679C24A92A530013C8E3 /* Fadeable.swift */; };
+		DCD9679F24A92A760013C8E3 /* ObservingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD9679E24A92A760013C8E3 /* ObservingTextView.swift */; };
+		DCD967A124A92A970013C8E3 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD967A024A92A970013C8E3 /* Observer.swift */; };
+		DCD967A324A92AB30013C8E3 /* ViewCycleEvaluating.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD967A224A92AB30013C8E3 /* ViewCycleEvaluating.swift */; };
+		DCD967A524A92AD30013C8E3 /* ImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD967A424A92AD30013C8E3 /* ImageExtensions.swift */; };
+		DCD967A724A92B820013C8E3 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD967A624A92B820013C8E3 /* TitleView.swift */; };
+		DCD967A924A938D10013C8E3 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD967A824A938D10013C8E3 /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +99,60 @@
 		DCD9672624A923E80013C8E3 /* RetailDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetailDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCD9672A24A923E80013C8E3 /* RetailDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailDemoUITests.swift; sourceTree = "<group>"; };
 		DCD9672C24A923E80013C8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD9673824A9240E0013C8E3 /* Retail-PageViewMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Retail-PageViewMaker.swift"; sourceTree = "<group>"; };
+		DCD9673A24A924250013C8E3 /* RetailTranslator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailTranslator.swift; sourceTree = "<group>"; };
+		DCD9673C24A9243A0013C8E3 /* RetailEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailEvaluator.swift; sourceTree = "<group>"; };
+		DCD9673E24A9244A0013C8E3 /* RetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetailScreen.swift; sourceTree = "<group>"; };
+		DCD9674124A924870013C8E3 /* ObservingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingPageView.swift; sourceTree = "<group>"; };
+		DCD9674324A924AA0013C8E3 /* ObservableObjectWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectWrapper.swift; sourceTree = "<group>"; };
+		DCD9674624A924E30013C8E3 /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		DCD9674824A9250C0013C8E3 /* ObservableArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableArray.swift; sourceTree = "<group>"; };
+		DCD9674A24A925320013C8E3 /* ObservableBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableBool.swift; sourceTree = "<group>"; };
+		DCD9674C24A925480013C8E3 /* ObservableString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableString.swift; sourceTree = "<group>"; };
+		DCD9674E24A9256A0013C8E3 /* DismissReceiver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissReceiver.swift; sourceTree = "<group>"; };
+		DCD9675124A9259A0013C8E3 /* PassablePlease.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassablePlease.swift; sourceTree = "<group>"; };
+		DCD9675324A926020013C8E3 /* ObservingBottomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingBottomButton.swift; sourceTree = "<group>"; };
+		DCD9675624A926310013C8E3 /* ActionEvaluating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionEvaluating.swift; sourceTree = "<group>"; };
+		DCD9675824A9265A0013C8E3 /* EvaluatorAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatorAction.swift; sourceTree = "<group>"; };
+		DCD9675A24A9268D0013C8E3 /* NamedEvaluatorAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedEvaluatorAction.swift; sourceTree = "<group>"; };
+		DCD9675D24A926C00013C8E3 /* DeepCopying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepCopying.swift; sourceTree = "<group>"; };
+		DCD9675F24A926E20013C8E3 /* ObservableInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableInt.swift; sourceTree = "<group>"; };
+		DCD9676124A9271C0013C8E3 /* ViewDemoing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDemoing.swift; sourceTree = "<group>"; };
+		DCD9676324A9273B0013C8E3 /* NamedDemoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedDemoProvider.swift; sourceTree = "<group>"; };
+		DCD9676624A927600013C8E3 /* DemoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoProvider.swift; sourceTree = "<group>"; };
+		DCD9676824A9277B0013C8E3 /* DemoControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControl.swift; sourceTree = "<group>"; };
+		DCD9676A24A927B50013C8E3 /* EvaluatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatingTextField.swift; sourceTree = "<group>"; };
+		DCD9676C24A927CE0013C8E3 /* EvaluatorElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatorElement.swift; sourceTree = "<group>"; };
+		DCD9676E24A927F40013C8E3 /* DemoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoContainerView.swift; sourceTree = "<group>"; };
+		DCD9677024A9281A0013C8E3 /* KeyboardPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPadding.swift; sourceTree = "<group>"; };
+		DCD9677224A9284C0013C8E3 /* DemoControlPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControlPanelView.swift; sourceTree = "<group>"; };
+		DCD9677424A928700013C8E3 /* NamedIdentifiedValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NamedIdentifiedValue.swift; sourceTree = "<group>"; };
+		DCD9677624A9289E0013C8E3 /* DemoControlView_ObservableControlledByTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControlView_ObservableControlledByTextInput.swift; sourceTree = "<group>"; };
+		DCD9677824A928B80013C8E3 /* DemoControlView_ButtonChoices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControlView_ButtonChoices.swift; sourceTree = "<group>"; };
+		DCD9677A24A928E40013C8E3 /* EvaluatingToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatingToggle.swift; sourceTree = "<group>"; };
+		DCD9677C24A928F60013C8E3 /* DemoControlView_Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoControlView_Toggle.swift; sourceTree = "<group>"; };
+		DCD9677E24A929360013C8E3 /* PassableString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassableString.swift; sourceTree = "<group>"; };
+		DCD9678024A929570013C8E3 /* ObservableValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableValidation.swift; sourceTree = "<group>"; };
+		DCD9678224A9296E0013C8E3 /* PassableBool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassableBool.swift; sourceTree = "<group>"; };
+		DCD9678424A9298A0013C8E3 /* PassableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassableState.swift; sourceTree = "<group>"; };
+		DCD9678624A9299C0013C8E3 /* EvaluatorState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluatorState.swift; sourceTree = "<group>"; };
+		DCD9678824A929BD0013C8E3 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
+		DCD9678924A929BD0013C8E3 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		DCD9678A24A929BD0013C8E3 /* FeedbackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackView.swift; sourceTree = "<group>"; };
+		DCD9678B24A929BD0013C8E3 /* FoundNotFoundButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundNotFoundButtonsView.swift; sourceTree = "<group>"; };
+		DCD9678C24A929BD0013C8E3 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		DCD9678D24A929BD0013C8E3 /* DisplayableProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayableProductsView.swift; sourceTree = "<group>"; };
+		DCD9678E24A929BD0013C8E3 /* SelectableCapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectableCapsuleButton.swift; sourceTree = "<group>"; };
+		DCD9678F24A929BD0013C8E3 /* SpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceView.swift; sourceTree = "<group>"; };
+		DCD9679024A929BD0013C8E3 /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
+		DCD9679A24A92A010013C8E3 /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		DCD9679C24A92A530013C8E3 /* Fadeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fadeable.swift; sourceTree = "<group>"; };
+		DCD9679E24A92A760013C8E3 /* ObservingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingTextView.swift; sourceTree = "<group>"; };
+		DCD967A024A92A970013C8E3 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		DCD967A224A92AB30013C8E3 /* ViewCycleEvaluating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCycleEvaluating.swift; sourceTree = "<group>"; };
+		DCD967A424A92AD30013C8E3 /* ImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtensions.swift; sourceTree = "<group>"; };
+		DCD967A624A92B820013C8E3 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		DCD967A824A938D10013C8E3 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +205,15 @@
 			children = (
 				DCD9670D24A923E60013C8E3 /* RetailDemoApp.swift */,
 				DCD9670F24A923E60013C8E3 /* ContentView.swift */,
+				DCD9673824A9240E0013C8E3 /* Retail-PageViewMaker.swift */,
+				DCD9673A24A924250013C8E3 /* RetailTranslator.swift */,
+				DCD9673C24A9243A0013C8E3 /* RetailEvaluator.swift */,
+				DCD9673E24A9244A0013C8E3 /* RetailScreen.swift */,
+				DCD9674024A924740013C8E3 /* Views */,
+				DCD9675524A926220013C8E3 /* Evaluating */,
+				DCD9674524A924B20013C8E3 /* Observables */,
+				DCD9675024A925810013C8E3 /* Passables */,
+				DCD9675C24A926B00013C8E3 /* Utilities */,
 				DCD9671124A923E70013C8E3 /* Assets.xcassets */,
 				DCD9671624A923E70013C8E3 /* Info.plist */,
 				DCD9671324A923E70013C8E3 /* Preview Content */,
@@ -128,6 +245,99 @@
 				DCD9672C24A923E80013C8E3 /* Info.plist */,
 			);
 			path = RetailDemoUITests;
+			sourceTree = "<group>";
+		};
+		DCD9674024A924740013C8E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9674124A924870013C8E3 /* ObservingPageView.swift */,
+				DCD9675324A926020013C8E3 /* ObservingBottomButton.swift */,
+				DCD9674624A924E30013C8E3 /* DismissButton.swift */,
+				DCD9674E24A9256A0013C8E3 /* DismissReceiver.swift */,
+				DCD9676A24A927B50013C8E3 /* EvaluatingTextField.swift */,
+				DCD9677024A9281A0013C8E3 /* KeyboardPadding.swift */,
+				DCD9677A24A928E40013C8E3 /* EvaluatingToggle.swift */,
+				DCD9678D24A929BD0013C8E3 /* DisplayableProductsView.swift */,
+				DCD9678C24A929BD0013C8E3 /* DividerView.swift */,
+				DCD9678A24A929BD0013C8E3 /* FeedbackView.swift */,
+				DCD9678B24A929BD0013C8E3 /* FoundNotFoundButtonsView.swift */,
+				DCD9679024A929BD0013C8E3 /* InstructionsView.swift */,
+				DCD9678824A929BD0013C8E3 /* OptionsView.swift */,
+				DCD9678924A929BD0013C8E3 /* ProductView.swift */,
+				DCD9678E24A929BD0013C8E3 /* SelectableCapsuleButton.swift */,
+				DCD9678F24A929BD0013C8E3 /* SpaceView.swift */,
+				DCD9679A24A92A010013C8E3 /* BlurView.swift */,
+				DCD9679C24A92A530013C8E3 /* Fadeable.swift */,
+				DCD9679E24A92A760013C8E3 /* ObservingTextView.swift */,
+				DCD967A024A92A970013C8E3 /* Observer.swift */,
+				DCD967A624A92B820013C8E3 /* TitleView.swift */,
+				DCD9676524A927460013C8E3 /* ViewDemoing */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCD9674524A924B20013C8E3 /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9674324A924AA0013C8E3 /* ObservableObjectWrapper.swift */,
+				DCD9674824A9250C0013C8E3 /* ObservableArray.swift */,
+				DCD9674A24A925320013C8E3 /* ObservableBool.swift */,
+				DCD9674C24A925480013C8E3 /* ObservableString.swift */,
+				DCD9675F24A926E20013C8E3 /* ObservableInt.swift */,
+				DCD9678024A929570013C8E3 /* ObservableValidation.swift */,
+				DCD967A824A938D10013C8E3 /* Observable.swift */,
+			);
+			path = Observables;
+			sourceTree = "<group>";
+		};
+		DCD9675024A925810013C8E3 /* Passables */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9675124A9259A0013C8E3 /* PassablePlease.swift */,
+				DCD9677E24A929360013C8E3 /* PassableString.swift */,
+				DCD9678224A9296E0013C8E3 /* PassableBool.swift */,
+				DCD9678424A9298A0013C8E3 /* PassableState.swift */,
+			);
+			path = Passables;
+			sourceTree = "<group>";
+		};
+		DCD9675524A926220013C8E3 /* Evaluating */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9675624A926310013C8E3 /* ActionEvaluating.swift */,
+				DCD9675824A9265A0013C8E3 /* EvaluatorAction.swift */,
+				DCD9675A24A9268D0013C8E3 /* NamedEvaluatorAction.swift */,
+				DCD9676C24A927CE0013C8E3 /* EvaluatorElement.swift */,
+				DCD9678624A9299C0013C8E3 /* EvaluatorState.swift */,
+				DCD967A224A92AB30013C8E3 /* ViewCycleEvaluating.swift */,
+			);
+			path = Evaluating;
+			sourceTree = "<group>";
+		};
+		DCD9675C24A926B00013C8E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9675D24A926C00013C8E3 /* DeepCopying.swift */,
+				DCD9677424A928700013C8E3 /* NamedIdentifiedValue.swift */,
+				DCD967A424A92AD30013C8E3 /* ImageExtensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DCD9676524A927460013C8E3 /* ViewDemoing */ = {
+			isa = PBXGroup;
+			children = (
+				DCD9676124A9271C0013C8E3 /* ViewDemoing.swift */,
+				DCD9676624A927600013C8E3 /* DemoProvider.swift */,
+				DCD9676324A9273B0013C8E3 /* NamedDemoProvider.swift */,
+				DCD9676824A9277B0013C8E3 /* DemoControl.swift */,
+				DCD9676E24A927F40013C8E3 /* DemoContainerView.swift */,
+				DCD9677224A9284C0013C8E3 /* DemoControlPanelView.swift */,
+				DCD9677624A9289E0013C8E3 /* DemoControlView_ObservableControlledByTextInput.swift */,
+				DCD9677824A928B80013C8E3 /* DemoControlView_ButtonChoices.swift */,
+				DCD9677C24A928F60013C8E3 /* DemoControlView_Toggle.swift */,
+			);
+			path = ViewDemoing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +469,62 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCD9679824A929BD0013C8E3 /* InstructionsView.swift in Sources */,
+				DCD9678524A9298A0013C8E3 /* PassableState.swift in Sources */,
+				DCD9677324A9284C0013C8E3 /* DemoControlPanelView.swift in Sources */,
+				DCD9675E24A926C00013C8E3 /* DeepCopying.swift in Sources */,
+				DCD9679124A929BD0013C8E3 /* OptionsView.swift in Sources */,
+				DCD9676224A9271C0013C8E3 /* ViewDemoing.swift in Sources */,
+				DCD9676B24A927B50013C8E3 /* EvaluatingTextField.swift in Sources */,
+				DCD9675424A926020013C8E3 /* ObservingBottomButton.swift in Sources */,
+				DCD9677D24A928F60013C8E3 /* DemoControlView_Toggle.swift in Sources */,
+				DCD9678324A9296E0013C8E3 /* PassableBool.swift in Sources */,
+				DCD9679724A929BD0013C8E3 /* SpaceView.swift in Sources */,
+				DCD9677124A9281A0013C8E3 /* KeyboardPadding.swift in Sources */,
+				DCD9679624A929BD0013C8E3 /* ProductView.swift in Sources */,
+				DCD967A124A92A970013C8E3 /* Observer.swift in Sources */,
+				DCD9674B24A925320013C8E3 /* ObservableBool.swift in Sources */,
+				DCD9674424A924AA0013C8E3 /* ObservableObjectWrapper.swift in Sources */,
+				DCD9673B24A924250013C8E3 /* RetailTranslator.swift in Sources */,
+				DCD9673924A9240E0013C8E3 /* Retail-PageViewMaker.swift in Sources */,
+				DCD9673F24A9244A0013C8E3 /* RetailScreen.swift in Sources */,
+				DCD967A724A92B820013C8E3 /* TitleView.swift in Sources */,
+				DCD9676724A927600013C8E3 /* DemoProvider.swift in Sources */,
+				DCD9677724A9289E0013C8E3 /* DemoControlView_ObservableControlledByTextInput.swift in Sources */,
+				DCD9674F24A9256A0013C8E3 /* DismissReceiver.swift in Sources */,
+				DCD9676924A9277B0013C8E3 /* DemoControl.swift in Sources */,
+				DCD9679B24A92A010013C8E3 /* BlurView.swift in Sources */,
+				DCD9679424A929BD0013C8E3 /* SelectableCapsuleButton.swift in Sources */,
+				DCD9676F24A927F40013C8E3 /* DemoContainerView.swift in Sources */,
+				DCD9679524A929BD0013C8E3 /* DisplayableProductsView.swift in Sources */,
+				DCD9676D24A927CE0013C8E3 /* EvaluatorElement.swift in Sources */,
+				DCD9679D24A92A530013C8E3 /* Fadeable.swift in Sources */,
+				DCD9676424A9273B0013C8E3 /* NamedDemoProvider.swift in Sources */,
+				DCD9675224A9259A0013C8E3 /* PassablePlease.swift in Sources */,
+				DCD9679924A929BD0013C8E3 /* FoundNotFoundButtonsView.swift in Sources */,
 				DCD9671024A923E60013C8E3 /* ContentView.swift in Sources */,
+				DCD967A524A92AD30013C8E3 /* ImageExtensions.swift in Sources */,
+				DCD9677B24A928E40013C8E3 /* EvaluatingToggle.swift in Sources */,
+				DCD9677F24A929360013C8E3 /* PassableString.swift in Sources */,
 				DCD9670E24A923E60013C8E3 /* RetailDemoApp.swift in Sources */,
+				DCD9674724A924E30013C8E3 /* DismissButton.swift in Sources */,
+				DCD9678124A929570013C8E3 /* ObservableValidation.swift in Sources */,
+				DCD9674224A924870013C8E3 /* ObservingPageView.swift in Sources */,
+				DCD9674D24A925480013C8E3 /* ObservableString.swift in Sources */,
+				DCD967A924A938D10013C8E3 /* Observable.swift in Sources */,
+				DCD9678724A9299C0013C8E3 /* EvaluatorState.swift in Sources */,
+				DCD9677924A928B80013C8E3 /* DemoControlView_ButtonChoices.swift in Sources */,
+				DCD9676024A926E20013C8E3 /* ObservableInt.swift in Sources */,
+				DCD9674924A9250C0013C8E3 /* ObservableArray.swift in Sources */,
+				DCD9679324A929BD0013C8E3 /* FeedbackView.swift in Sources */,
+				DCD9673D24A9243A0013C8E3 /* RetailEvaluator.swift in Sources */,
+				DCD967A324A92AB30013C8E3 /* ViewCycleEvaluating.swift in Sources */,
+				DCD9677524A928700013C8E3 /* NamedIdentifiedValue.swift in Sources */,
+				DCD9679224A929BD0013C8E3 /* DividerView.swift in Sources */,
+				DCD9675724A926310013C8E3 /* ActionEvaluating.swift in Sources */,
+				DCD9675924A9265A0013C8E3 /* EvaluatorAction.swift in Sources */,
+				DCD9679F24A92A760013C8E3 /* ObservingTextView.swift in Sources */,
+				DCD9675B24A9268D0013C8E3 /* NamedEvaluatorAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
